@@ -41,4 +41,20 @@
       </plugin>
     </plugins>
   </build>
+  
+  <distributionManagement>
+  <repository>
+    <id>nexus_java_spring_release</id>
+    <url>http://localhost:8081/nexus/content/repositories/nexus_java_spring_release</url>
+  </repository>
+</distributionManagement>
+
+<distributionManagement>
+  <snapshotRepository>
+    <id>nexus_java_spring_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/nexus_java_spring_snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
+  
+  
 </project>
